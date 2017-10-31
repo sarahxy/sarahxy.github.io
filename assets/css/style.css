@@ -55,6 +55,10 @@ embed {
         .page .page__header--container .page__header--img img {
           height: 100%; }
         @media screen and (orientation: portrait) {
+          .page .page__header--container .page__header--img #beci-logo {
+            width: 100%;
+            height: auto; } }
+        @media screen and (orientation: portrait) {
           .page .page__header--container .page__header--img {
             /* Portrait styles */
             margin-top: 30px;
@@ -430,7 +434,8 @@ embed {
       width: 80%; } }
 
 #email {
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-size: 15px; }
   #email:hover {
     cursor: pointer; }
 

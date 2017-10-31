@@ -91,6 +91,13 @@ embed {
 					height: 100%;
 				}
 
+				#beci-logo {
+					@media screen and (orientation:portrait) {
+						width: 100%;
+						height: auto;
+					}
+				}
+
 				@media screen and (orientation:portrait) {
 					/* Portrait styles */
 					margin-top: $spacing--medium;
@@ -627,6 +634,7 @@ embed {
 
 #email {
 	margin-right: $spacing--small;
+	font-size: 15px;
 
 	&:hover {
 		cursor: pointer;
