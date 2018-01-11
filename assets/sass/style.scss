@@ -2,6 +2,9 @@
 @import "utils/mixins";
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,400,400i,500,');
 
+// Run the following command on Terminal from the "assets" folder to compile Sass:
+// sass --watch sass:css
+
 html, body {
 	margin: 0 auto;
 	max-width: $s__max-width;
@@ -195,9 +198,9 @@ embed {
 		padding-top: $spacing--large;
 	}
 
-	// "mini" used foradditional details
+	// "mini" used for additional details
 	.minititle {
-		font-size: 15px;
+		font-size: 13px;
 		font-weight: 500;
 		letter-spacing: 3px;
 		padding-bottom: 5px;
@@ -206,7 +209,7 @@ embed {
 	}
 
 	.minitext {
-		font-size: 13px;
+		font-size: 16px;
 		font-weight: 300;
 	}
 
@@ -310,12 +313,13 @@ embed {
 		width: 10px;
 		height: 10px;
 		border-radius: 50%;
-		border: 1px solid $gray;
-		background-color: white;
+		background: $black;
 
 		&:hover {
 			cursor: pointer;
-			background: $black;
+			
+			border: 1px solid $gray;
+			background-color: white;
 		}
 	}
 }
